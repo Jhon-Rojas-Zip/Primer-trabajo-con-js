@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/register.css">
+    <title>¡Registro!</title>
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h1>Registro al Curso</h1>
+
+    <label for="nombre">Por favor ingrese su nombre</label>
+    <input type="text" id="nombre" placeholder="Nombre">
+
+    <label for="edad">Por favor ingrese su edad</label>
+    <input type="number" id="edad" placeholder="Edad">
+
+    <label for="ciudad">Ingresa tu ciudad:</label>
+    <input type="text" id="ciudad" placeholder="Ciudad">
+
+    <button onclick="verificar()">ENVIAR</button>
+    <button onclick="limpiar()">LIMPIAR</button>
+    <p id="resultado"></p>
+
+    <p id="contador" style="margin-top:14px; font-size:13px; color:#718096;">Registros realizados: 0
+</p>
+
+</div>
+
+<script src="./js/register.js"></script>
+
+</body>
+</html>
